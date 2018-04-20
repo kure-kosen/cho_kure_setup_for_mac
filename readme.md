@@ -17,6 +17,7 @@
   1. New SSH key に `github.pub` をコピーする(上記コマンドを実行していたらすでにコピーされているので貼り付けるだけ)
   1. iTerm2等で `ssh github.com` で「Hi << Your user id >>! You've successfully authenticated, but GitHub does not provide shell access.
   Connection to github.com closed.」などと出たら成功
+
 1. cho_kure_webの環境構築
   1. `./setup.sh`
 
