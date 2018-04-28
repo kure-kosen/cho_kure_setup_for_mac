@@ -1,7 +1,7 @@
-sudo brew update
-sudo brew upgrade
+brew update
+brew upgrade
 
-sudo brew install -y git yarn mysql mysql-server rbenv
+brew install -y git yarn mysql rbenv
 
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
